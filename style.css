@@ -1,0 +1,101 @@
+
+@import 
+
+url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap');
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+body{
+     font-family: "Open Sans", sans-serif;
+}
+
+.header{
+   background-image: url("images/developer.png"),url("images/header_bg.png");
+   background-repeat: no-repeat;
+   background-position: top left,bottom right;
+}
+
+.btn-primary{
+   background-color: #FD6E0A;
+   font-size:20px ;
+   color: white;
+   font-weight: bold;
+   padding:18px 36px;
+   border: none;
+   border-radius: 10px;
+   cursor: pointer;
+
+}
+/* selected tag start */
+.text-primary{
+   color:#FD6E0A
+}
+.dark-2{
+    color:#474747;
+    
+}
+/* selected tag end */
+
+/* nav style start */
+ .navber{
+display:flex;
+justify-content: space-between;
+margin:50px 226px;
+
+ }
+ .nav-logo{
+   font-weight: 800;
+   font-size: 45px;
+
+ }
+  .nav-items{
+display: flex;
+justify-content: center;
+align-items: center;
+  }
+ .nav-items li{
+list-style: none;
+margin-right: 50px;
+ 
+ }
+ .nav-items li a{
+    text-decoration: none;
+    font-size: 20px;
+    
+    
+ }
+
+/* nav style end */
+
+/* banner is start */
+ .bannar-contain{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin: 0 35px 0 230px;
+ }
+.banner-profile{
+   width:584px;
+
+}
+.banner-greeting{
+   font-size: 45px;
+   font-weight: bold;
+
+}
+.hero-details{
+   max-width:585px ;
+
+
+  
+}
+.banner-tittle{
+   font-size: 85px;
+   font-weight: 700;
+}
+
+
+/*banner is end */
+
