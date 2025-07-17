@@ -29,12 +29,26 @@ body{
 
 }
 /* selected tag start */
+
+.secondary-bg{
+   background-color: #FFF8F3;
+}
 .text-primary{
    color:#FD6E0A
 }
 .dark-2{
     color:#474747;
     
+}
+.section-tittle{
+color: #181818;
+font-weight: bold;
+font-size: 35px;
+}
+.section-description{
+   color:#757575;
+   font-size: 18px;
+   margin: 30px 0;
 }
 /* selected tag end */
 
@@ -98,4 +112,26 @@ margin-right: 50px;
 
 
 /*banner is end */
+
+/* section-1 is start */
+main{
+   max-width: 1140px;
+   margin: 0 auto;
+}
+.about-section{
+ padding:131px 156px ;
+ margin:130px 0 ;
+ text-align: center;
+ border-radius: 5px;
+
+}
+.about-detailes-container{
+   display: flex;
+   gap:50px ;
+}
+
+
+
+/* section-1 is end */
+
 
