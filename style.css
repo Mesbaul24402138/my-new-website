@@ -158,3 +158,39 @@ main section{
 /* skill section is end */
 
 
+/* resume section is start */
+
+.resume-container{
+   display: flex;
+   margin:113px 0 10px 0;
+   gap:71px;
+   margin-top:30px ;
+   /* text-align: center; */
+}
+
+.resume-colum-tittle{
+   margin-bottom:30px ;
+   font-size:30px ;
+   font-weight: 700;
+}
+.resume-container{
+   text-align: start;
+}
+.exprience-sub-tittle{
+   margin: 10px 0 20px 0;
+   font-size: 20px;
+   font-weight: 600px;
+
+}
+.exprience-description{
+      color:#757575;
+   font-size: 18px;
+}
+
+   
+.resume-section hr{
+   margin:30px 5px ;
+}
+
+/* resume section is end */
+
