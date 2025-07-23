@@ -167,6 +167,10 @@ main section{
    margin-top:30px ;
    /* text-align: center; */
 }
+.resume-section{
+
+   text-align: center;
+}
 
 .resume-colum-tittle{
    margin-bottom:30px ;
@@ -176,10 +180,12 @@ main section{
 .resume-container{
    text-align: start;
 }
+
 .exprience-sub-tittle{
    margin: 10px 0 20px 0;
    font-size: 20px;
-   font-weight: 600px;
+  
+
 
 }
 .exprience-description{
@@ -191,6 +197,45 @@ main section{
 .resume-section hr{
    margin:30px 5px ;
 }
+.cv-btn{
+ margin: 0 auto;
+}
 
 /* resume section is end */
+
+
+
+/* footer section is start */
+footer{
+   padding: 130px 230px;
+
+}
+.footer-container{
+   display: flex;
+   gap: 117px;
+     margin:0 auto;
+   justify-content: space-between;
+}
+.name-input{
+width: 451px;
+height: 64px;
+padding: 18px 30px 5px;
+border: none;
+border-radius: 5px;
+background-color: #ffffff;
+font-size: 20px;
+margin-bottom: 10px;
+}
+.massage-input{
+   height: 180px;
+   padding: 18px 30px 5px;
+}
+.name-input:focus{
+   border: 1px solid red;
+   outline: none;
+}
+
+
+/* footer section is end */
+
 
